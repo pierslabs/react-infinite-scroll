@@ -47,7 +47,6 @@ const Home = () => {
 
       observer.current = new IntersectionObserver((entries) => {
         if (entries[0].isIntersecting && hashMore) {
-          console.log("visible");
           setPage((page) => page + 1);
         }
       }, {});
@@ -56,7 +55,6 @@ const Home = () => {
     },
     [loading, hashMore]
   );
-  console.log({ data: data?.results });
 
   return (
     <Layout>
