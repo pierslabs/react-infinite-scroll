@@ -19,7 +19,7 @@ const MuiTable = () => {
   const [page, setPage] = useState(1);
   const url = `https://api.themoviedb.org/3/discover/movie?page=${page}`;
   const codeUrl =
-    "https://github.com/pierslabs/react-infinite-scroll/blob/main/src/pages/Home.tsx";
+    "https://github.com/pierslabs/react-infinite-scroll/blob/main/src/components/MuiTable/MuiTable.tsx";
   const { data, loading, hashMore } = useFetch(url);
   const observer = useRef<IntersectionObserver | null>(null);
 
