@@ -7,7 +7,6 @@ interface NavbarProps {
 }
 
 const Navbar: FC<NavbarProps> = ({ drawerWith }) => {
-  console.log(drawerWith);
   return (
     <AppBar
       position="fixed"
