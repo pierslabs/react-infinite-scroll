@@ -21,8 +21,8 @@ const Navbar: FC<NavbarProps> = ({ drawerWith }) => {
         </IconButton>
 
         <Grid container direction="row" justifyContent="space-around">
-          <Typography variant="h6" noWrap component="div">
-            Infinite scroll With React
+          <Typography variant="h5" component="div" className="title-navbar">
+            Infinite Scroll With React
           </Typography>
         </Grid>
       </Toolbar>

@@ -16,3 +16,13 @@
   width: 50px;
   height: 50px;
 }
+
+.pageNumber {
+  color: rgb(16, 217, 240);
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.title-navbar {
+  color: rgb(16, 217, 240);
+}

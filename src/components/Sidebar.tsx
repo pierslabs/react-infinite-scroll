@@ -22,7 +22,11 @@ const Sidebar: FC<SidebarProps> = ({ drawerWidth }) => {
   return (
     <Box
       component="nav"
-      sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+      sx={{
+        width: { sm: drawerWidth },
+        flexShrink: { sm: 0 },
+        display: { xs: "none", sm: "block" },
+      }}
     >
       <Drawer
         variant="permanent"
