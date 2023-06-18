@@ -54,13 +54,23 @@ const Sidebar: FC<SidebarProps> = ({ drawerWidth }) => {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link className="link" to="/fake">
+          <Link className="link" to="/lazy">
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
                   <LinkOff sx={{ color: "#fff", marginBottom: 1 }} />
                 </ListItemIcon>
-                <ListItemText primary="fake page" />
+                <ListItemText primary="lazy images" />
+              </ListItemButton>
+            </ListItem>
+          </Link>
+          <Link className="link" to="/intersection-observer">
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <LinkOff sx={{ color: "#fff", marginBottom: 1 }} />
+                </ListItemIcon>
+                <ListItemText primary="Intersection Observer Resume" />
               </ListItemButton>
             </ListItem>
           </Link>
