@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FilmResponse } from "../interfaces/film";
 
 export const useFetch = (url: string) => {

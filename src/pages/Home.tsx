@@ -1,19 +1,4 @@
-import { useCallback, useRef, useState } from "react";
-import { useFetch } from "../hooks/useFech";
 import Layout from "../Layout/Layout";
-import {
-  Box,
-  CircularProgress,
-  Paper,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Typography,
-} from "@mui/material";
-import { Link } from "react-router-dom";
 import { MuiTable } from "../components/MuiTable";
 
 export interface Film {
