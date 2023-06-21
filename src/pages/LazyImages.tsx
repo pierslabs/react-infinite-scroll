@@ -52,7 +52,7 @@ const LazyImages = () => {
             key={source}
             data-src={source}
             alt="motocross"
-            style={{ width: "50%", height: "auto" }}
+            style={{ width: "70%", height: "auto" }}
             src={placeholder}
           />
         ))}

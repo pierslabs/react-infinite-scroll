@@ -31,6 +31,7 @@
 }
 
 .card {
+  margin: 30px;
   transform: translateX(400px);
   opacity: 0;
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
@@ -50,9 +51,11 @@
 }
 
 .list-item {
-  padding: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   border: 1px solid rgb(16, 217, 240);
   width: 50vw;
-  margin: 30px;
+  height: 100px;
   text-align: center;
 }
