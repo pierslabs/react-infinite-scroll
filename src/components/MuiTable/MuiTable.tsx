@@ -59,7 +59,7 @@ const MuiTable = () => {
         </Link>
       </Box>
 
-      <TableContainer component={Paper} sx={{ height: { xs: 1300, sm: 600 } }}>
+      <TableContainer component={Paper} sx={{ height: { xs: 1300, sm: 650 } }}>
         {loading && (
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <CircularProgress />
