@@ -74,6 +74,16 @@ const Sidebar: FC<SidebarProps> = ({ drawerWidth }) => {
               </ListItemButton>
             </ListItem>
           </Link>
+          <Link className="link" to="/card-animation">
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <LinkOff sx={{ color: "#fff", marginBottom: 1 }} />
+                </ListItemIcon>
+                <ListItemText primary="Card Animation" />
+              </ListItemButton>
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
     </Box>
